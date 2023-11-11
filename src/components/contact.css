@@ -1,0 +1,88 @@
+#sectionContact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background-color: black;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+}
+
+#spanContact {
+    text-align: center;
+    color: #C4FCEF;
+    margin: 2rem;
+    font-size: 1.60rem;
+    letter-spacing: 2px;
+    padding-bottom: 1rem;
+}
+
+#formContact {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+#pContact {
+    color: white;
+    text-align: center;
+    letter-spacing: 0.01rem;
+
+}
+
+.inputName,
+.inputEmail,
+.inputMsg {
+    width: 100vh;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 10px;
+}
+
+.ButtonContact {
+    border: none;
+    border-radius: 20px;
+    background-color: #C4FCEF;
+    color: black;
+    width: 15vh;
+    height: 7vh;
+    margin: 1rem auto;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.ButtonContact:hover {
+    transform: scale(1.1);
+}
+
+.linksContact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkImg {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    margin: 1rem;
+    padding: 0.3rem;
+    opacity: 0.6;
+    cursor: pointer;
+    object-fit: cover;
+}
+.linkImg:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}

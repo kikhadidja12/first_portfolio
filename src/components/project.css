@@ -1,0 +1,10 @@
+#sectionProject {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 130vh;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}

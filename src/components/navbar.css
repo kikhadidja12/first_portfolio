@@ -1,0 +1,93 @@
+.Navbar {
+    width: auto;
+    height: 8vh;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    /* z-index: 0; */
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Navbar:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logoImg {
+    background-color: white;
+    object-fit: cover;
+    height: 5vh;
+    width: 10vh;
+}
+
+.desktopMenuListItem {
+    color: white;
+    border-radius: 5px;
+    margin: 2vh;
+    padding: 3px;
+    cursor: pointer;
+    width: 20vh;
+}
+
+.desktopMenuListItem:hover {
+    color: #C4FCEF;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #C4FCEF;
+}
+
+.ButtonNavbar {
+    border: none;
+    border-radius: 20px;
+    background-color: #C4FCEF;
+    color: white;
+    width: 15vh;
+    height: 7vh;
+}
+
+.ButtonNavbar:hover {
+
+    transform: scale(1.1);
+}
+
+.ButtonNavbarImg {
+    width: 6vh;
+    cursor: pointer;
+}
+
+.active {
+    color: yellow;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #C4FCEF;
+}
+
+@media (max-width: 768px) {
+    .desktopMenuListItem {
+        margin: 1vh;
+    }
+}
+
+/*
+@media (min-width: 769px) and (max-width: 1024px) {
+    .desktopMenuListItem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Navbar {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .ButtonNavbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ButtonNavbarImg {
+        width: 7vh;
+        cursor: pointer;
+    }
+} */
